@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Oswald:wght@600&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(8, 115, 129);
+    background-image: url(../img/Landing_pg_background_high_knee.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.85;
+}
+
+.landing-page {
+    display: block;
+    min-width: 30vh;
+    min-height: min-content;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 15px;
+    justify-items: center;
+}
+
+.landing-page hr {
+    margin: 0;
+    border: 0;
+    max-width: 10%;
+    border-top: 3px solid;
+}
+
+.landing-page p {
+    font-family: 'Frijole', cursive;
+    margin: 15px 30px;
+    font-size: 20px;
+    color: rgb(6, 31, 78);
+}
+
+.landing-page i {
+    color: rgb(6, 31, 78);
+}
+
+.landing-page span {
+    font-family: 'Oswald', sans-serif;
+    margin: 15px 30px;
+    font-size: 30px;
+    color: rgb(6, 31, 78);
+}
+
+.landing-page button {
+    margin: 30px 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: rgb(18, 55, 124);
+    color: cornsilk;
+    width: 80%;
+    border-style: none;
+    opacity: 1;
+}
