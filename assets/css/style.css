@@ -7,9 +7,10 @@
 }
 
 body, html {
-    
+    height: 100%;
     width: 100%;
     font-family: 'Graduate', cursive;
+    
 }
 
 .background-img {
@@ -68,8 +69,9 @@ body, html {
     border-color: #000000;
 }
 
-.landing-page button a {
+.landing-page a {
     text-decoration: none;
+    color: #efebe9;
 }
 
 .landing-page button {
@@ -229,12 +231,12 @@ footer {
     font-size: 4rem;
 }
 
-#header, #footer {
+#header {
     display: flex;
     background-color: #efebe9;
     width: 100vw;
     height: 150px;
-    color: black;
+    color: #000000;
     opacity: .7;
     text-align: center;
     align-items: center;
@@ -252,7 +254,7 @@ footer {
 /*------- BENEFITS PAGE - MAIN SECTION NAVIGATION --------*/
 
 #main-section {
-    height: 70vh;
+    height: 650px;
     justify-content: center;
 }
 
@@ -308,17 +310,25 @@ footer {
     height: min-content;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 
 /*------- BENEFITS PAGE - FOOTER --------*/
 
 #footer {
-    overflow-y: scroll;
-    max-height: 100px;
+    
     font-family: 'Lato', sans-serif;
-    align-items: flex-start;
-    justify-content: flex-start;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    background-color: #efebe9;
+    width: 100vw;
+    color: #000000;
+    opacity: .7;
+    text-align: center;
+    align-items: center;
+    height: 150px;
 }
 
 .sign-up-container {
@@ -388,4 +398,66 @@ footer {
 
 .card-body h3 {
     border-bottom: 1.5px solid #ab000d;
+}
+
+/*---- Q&A CARD CONTAINER ----*/
+
+.card-body-qa {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+}
+
+.form-row {
+    margin top: 15px;
+}
+
+.card-header-qa {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #efebe9;
+}
+
+/*------ CONTACT PAGE -----*/
+
+.form-container-text {
+    margin: 10%;
+}
+
+.form-container-text li {
+    margin: 30px 10px;
+    text-align: left;
+}
+
+.form-control {
+    border: 2px solid #ab000d;
+    margin: 10px;
+}
+
+.form-container {
+    text-align: center;
+    margin: 10%;
+}
+
+
+
+/* --- HOME  ----*/
+
+.home-text h1 {
+    margin: 30px;
+}
+
+.home-text p {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 0px 100px;
+}
+
+.home-text a {
+    margin-top: 100px;
 }
