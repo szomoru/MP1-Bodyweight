@@ -1,63 +1,391 @@
-@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Lato&family=Frijole&family=Oswald:wght@600&display=swap');
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(8, 115, 129);
-    background-image: url(../img/Landing_pg_background_high_knee.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 0.85;
+*{
+    margin:0;
+    padding:0;
+    border:0;
 }
+
+body, html {
+    
+    width: 100%;
+    font-family: 'Graduate', cursive;
+}
+
+.background-img {
+    background-image: url(../img/background_pushup.jpg);
+    
+    /* Add the blur effect 
+        filter: blur(8px);
+        -webkit-filter: blur(8px);*/
+
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+
+/*-------------------- LANDING PAGE ----------------------*/
+
 
 .landing-page {
     display: block;
+    position: absolute;
     min-width: 30vh;
     min-height: min-content;
     background-color: #ffffff;
+    opacity: 0.7;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 100px;
     justify-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
 }
 
-.landing-page hr {
-    margin: 0;
-    border: 0;
-    max-width: 10%;
-    border-top: 3px solid;
-}
-
-.landing-page p {
-    font-family: 'Frijole', cursive;
+.landing-page h1, h2 {
+    font-family: 'Graduate', cursive;
     margin: 15px 30px;
-    font-size: 20px;
-    color: rgb(6, 31, 78);
+    line-height: normal;
 }
 
-.landing-page i {
-    color: rgb(6, 31, 78);
+.span-red {
+    color: #ab000d;
 }
 
-.landing-page span {
-    font-family: 'Oswald', sans-serif;
-    margin: 15px 30px;
-    font-size: 30px;
-    color: rgb(6, 31, 78);
+.span-black {
+    color: #000000;
+}
+
+.border-tb {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #000000;
+}
+
+.landing-page button a {
+    text-decoration: none;
 }
 
 .landing-page button {
     margin: 30px 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 2rem;
     font-weight: 500;
     border-radius: 15px;
-    background-color: rgb(18, 55, 124);
-    color: cornsilk;
-    width: 80%;
+    background-color: #ab000d;
+    color: #ffffff;
+    width: 30%;
     border-style: none;
-    opacity: 1;
+}
+
+.landing-page button a {
+    text-decoration: none;
+}
+
+
+/*-------------------- HOME PAGE ----------------------*/
+
+/* Style the header */
+header {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 35px;
+  display: block;
+    position: absolute;
+    min-width: 30vh;
+    min-height: 70px;
+    justify-items: center;
+    top: 0;
+    width: 100%;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #000000;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: inline-flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0px;
+  position: absolute;
+  top: 70px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+    padding: 30px 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Style the content */
+article {
+    position:absolute;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    background-color: #f1f1f1;
+    padding: 10px;
+    top: 18%;
+    left: 21%;
+    ;
+    justify-content: space-around;
+}
+
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+article .card {
+    border-color: transparent;
+    border-left: 10px;
+    border-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    position: relative;
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: #efebe9;
+    width: 100%;
+    margin: 0px;
+}
+
+.nav-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover {
+    background-color: #ffcccb;
+    text-decoration: none;
+}
+
+
+.active {
+    background-color: #ab000d;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+
+
+
+
+/*------- BENEFITS PAGE --------*/
+
+.container-fluid {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+#header {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#header h1 {
+    font-size: 4rem;
+}
+
+#header, #footer {
+    display: flex;
+    background-color: #efebe9;
+    width: 100vw;
+    height: 150px;
+    color: black;
+    opacity: .7;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo-title a {
+    text-decoration: none;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: black;
+    color:black;
+}
+
+/*------- BENEFITS PAGE - MAIN SECTION NAVIGATION --------*/
+
+#main-section {
+    height: 70vh;
+    justify-content: center;
+}
+
+#nav, #main-pg {
+    padding:0;
+    border:0;
+    position: relative;
+    width: 100%;
+    background-color: #efebe9;
+    opacity: 0.7;
+}
+
+#nav {
+    margin: 0 0 10px 0;
+}
+
+#main-pg {
+    margin: 0 0 10px 0;
+    border-left: 2px solid #ab000d;
+    text-align: center;
+}
+
+.nav-item {
+    padding-left: 40px;
+    display: flex;
+    height: 75px;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.active span {
+    color: #efebe9;
+} 
+
+
+.active i {
+    color: #efebe9;
+} 
+
+/*------- BENEFITS PAGE - MAIN SECTION MAIN PAGE CAROUSEL --------*/
+
+
+.page-title {
+    margin: 0;
+}
+
+#main-pg .col-10{
+    width: 100%;
+}
+
+.main-pg-content {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*------- BENEFITS PAGE - FOOTER --------*/
+
+#footer {
+    overflow-y: scroll;
+    max-height: 100px;
+    font-family: 'Lato', sans-serif;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sign-up-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container p, .input-group {
+    margin: 10px 10px 0px 10px;
+}
+
+.input-group {
+    width: 50%;
+}
+
+.social-network-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networks {
+    width: 100%;
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 200%;
+    margin: 0.5%;
+    padding: 1%;
+    color: black;
+}
+
+.social-networks i:hover {
+    color: #ab000d;
+    transform: scale(1.2);
+    transition: all 0.25s ease-in-out;
+}
+
+.btn {
+    background-color: black;
+    color:  #efebe9;
+}
+
+.btn:hover {
+    background-color: #ab000d;
+}
+
+
+
+/*---- EXERCISES CARD CONTAINER ----*/
+
+.card-container {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-body h3 {
+    border-bottom: 1.5px solid #ab000d;
 }
