@@ -228,7 +228,8 @@ footer {
 }
 
 #header h1 {
-    font-size: 4rem;
+    /* font-size: 4rem; */
+    flex-grow: 1;
 }
 
 #header {
@@ -275,6 +276,8 @@ footer {
     margin: 0 0 10px 0;
     border-left: 2px solid #ab000d;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .nav-item {
@@ -298,7 +301,9 @@ footer {
 
 
 .page-title {
+    width: 100%;
     margin: 0;
+    text-align: center;
 }
 
 #main-pg .col-10{
@@ -387,6 +392,12 @@ footer {
 
 
 /*---- EXERCISES CARD CONTAINER ----*/
+
+.card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+}
 
 .card-container {
     display: flexbox;
