@@ -1,438 +1,362 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&family=Lato&family=Frijole&family=Oswald:wght@600&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
-}
 
-body, html {
-    height: 100%;
-    width: 100%;
-    font-family: 'Graduate', cursive;
+/*--------------------------------*/
+/*--- STYLES ALL OVER THE PAGE ---*/
+/*--------------------------------*/
+
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #ab000d;
+    }
+
+    h1,h2,h3,h4 {
+        font-family: 'Graduate', sans-serif;
+    }
+
+    body, html {
+        height: 100%;
+        width: 100%;
+        font-family: 'Graduate', sans-serif;
+        background-image: url(../img/background_pushup.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;   
+    }
+
+    .border-tb {                    /*Border top and Bottom used in header and landing page */
+        border-top: 2px solid;
+        border-bottom: 2px solid; 
+        border-color: #212121;
+    }
+
+    li {
+        list-style: none;
+    }
+
+   
+/* -------------------------------------------------------------------------*/
+/*----------------------------- LANDING PAGE -------------------------------*/
+/* -------------------------------------------------------------------------*/
+
+
+/*--- LANDING PAGE CONTAINER PROPERTIES ---*/
+
+    .landing-page-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+/*--- LANDING PAGE TEXTBOX STYLING ---*/
+
+    .landing-page-box {
+        display: flex-box;
+        min-width: 30vh;
+        min-height: min-content;
+        background-color: #efebe9;
+        opacity: 0.7;
+        text-align: center;
+        border-radius: 20px;
+        justify-items: center;
+        margin-left: 15%;
+    }
+
+    .landing-page-box h1, h2 {
+        margin: 15px 30px;
+    }
+
+    .landing-page-box a {
+        margin-bottom: 30px;
+    }
+
+    .landing-page-box .btn {    /*Removing border from button*/
+        border-style: none;
+    }
+
+    .landing-page-box a:hover {
+        color: #ffffff;
+    }
+
+    .span-red {                 /*Coloring text on landing page - Red */
+        color: #ab000d;
+    }
+
+    .span-black {               /*Coloring text on landing page - Black */
+        color: #212121;
+    }
+
+
+
+/* -------------------------------------------------------------------------*/
+/* ---------------------- PAGE LAYOUT ELEMENTS STYLES ----------------------*/
+/* -------------------------------------------------------------------------*/
+
+
+
+/* --- HEADER STYLE ---*/
+
+    header {
+        display: flex;
+        background-color: #efebe9;
+        opacity: 0.8;
+        top: 0;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header h1 {
+        color: #212121;
+        font-size: 4em;
+    }
+
+
+
+    .container-fluid {
+        margin-bottom:10px !important;
+    }
+
+    header a {
+        color: #212121;
+    }
+
+
+
+/*--- MAIN SECTION DIVIDING STYLE---*/
+
+    #main-section {
+        justify-content: center;
+    }
+
+    #main-section-nav, #main-section-content-pg {
+        display: flex;
+        padding:0;
+        border:0;
+        width: 100%;
+        background-color: #efebe9;
+        opacity: 0.7;
+        justify-content: center;
+    }
+
+    #main-section-content-pg {
+        flex-direction: row;
+        opacity: 0.9;
+    }
     
-}
+    #main-section-nav {
+        margin: 0 0 10px 0;
+    }
 
-.background-img {
-    background-image: url(../img/background_pushup.jpg);
+    #main-section-content-pg {
+        margin: 0 0 10px 0;
+        border-left: 2px solid #ab000d;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* ---- Navigation Styling ---- */
+    .nav {
+        width: 100%;
+    }
+
+        .nav-item {
+            padding-left: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            height: 75px;
+            align-items: center;
+            font-size: 1.1rem;
+        }
+
+        .nav-item a{
+            text-decoration: none;
+            color: #212121;
+        }
+
+        .nav-item:hover {
+            background-color: #ffcccb;
+            text-decoration: none;
+        }
+
+        .nav-link {
+            text-decoration: none;
+        }
+
+        .active {
+            background-color: #ab000d;
+        }
+
+        .active span {
+            color: #efebe9;
+        } 
+
+        .active i {
+            color: #efebe9;
+        } 
+
+/*----- - FOOTER STYLE --------*/
+
+    footer {
+        font-family: 'Lato', sans-serif;
+        background-color: #efebe9;
+        color: #212121;
+        opacity: .8;
+        text-align: center;
+        min-height: 120px;
+    }
+
+    #footer-details {
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer-signup-text{
+        text-align: justify;
+        justify-content: right;
+    }    
+
+    .inline-block {                 
+        display: inline-block;
+    }
+
+    .sign-up-container {                         /*For input field with a sign up buttom*/
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sign-up-container p, .input-group {         
+        margin: 10px 10px 0px 10px;
+    }
+
+    .input-group {
+        width: 50%;
+    }
     
-    /* Add the blur effect 
-        filter: blur(8px);
-        -webkit-filter: blur(8px);*/
 
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-}
+    .social-network-container {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .social-networks {
+        width: 100%;
+    }
 
-/*-------------------- LANDING PAGE ----------------------*/
+    .social-networks li{
+        display: inline;
+    }
 
+    .social-networks i{
+        font-size: 200%;
+        margin: 0.5%;
+        padding: 1%;
+        color:#212121;
+    }
 
-.landing-page {
-    display: block;
-    position: absolute;
-    min-width: 30vh;
-    min-height: min-content;
-    background-color: #ffffff;
-    opacity: 0.7;
-    text-align: center;
-    border-radius: 100px;
-    justify-items: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 50%;
-    padding: 20px;
-}
+    .social-networks i:hover {
+        color: #ab000d;
+        transform: scale(1.2);
+        transition: all 0.25s ease-in-out;
+    }
 
-.landing-page h1, h2 {
-    font-family: 'Graduate', cursive;
-    margin: 15px 30px;
-    line-height: normal;
-}
+    .btn {
+        background-color:#212121;
+        color:  #efebe9;
+    }
 
-.span-red {
-    color: #ab000d;
-}
-
-.span-black {
-    color: #000000;
-}
-
-.border-tb {
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    border-color: #000000;
-}
-
-.landing-page a {
-    text-decoration: none;
-    color: #efebe9;
-}
-
-.landing-page button {
-    margin: 30px 0;
-    font-family: 'Lato', sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
-    border-radius: 15px;
-    background-color: #ab000d;
-    color: #ffffff;
-    width: 30%;
-    border-style: none;
-}
-
-.landing-page button a {
-    text-decoration: none;
-}
-
-
-/*-------------------- HOME PAGE ----------------------*/
-
-/* Style the header */
-header {
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 30px 0px;
-  text-align: center;
-  font-size: 35px;
-  display: block;
-    position: absolute;
-    min-width: 30vh;
-    min-height: 70px;
-    justify-items: center;
-    top: 0;
-    width: 100%;
-}
-
-header h1 a {
-    text-decoration: none;
-    color: #000000;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-}
-
-
-/* Container for flexboxes */
-section {
-  display: -webkit-flex;
-  display: inline-flex;
-}
-
-/* Style the navigation menu */
-nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 0px;
-  position: absolute;
-  top: 70px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-    padding: 30px 20px;
-}
-
-.nav-link{
-    text-decoration: none;
-    color: #000000;
-}
-
-/* Style the content */
-article {
-    position:absolute;
-    -webkit-flex: 2;
-    -ms-flex: 2;
-    flex: 2;
-    background-color: #f1f1f1;
-    padding: 10px;
-    top: 18%;
-    left: 21%;
-    ;
-    justify-content: space-around;
-}
-
-.container {
-    display: inline-flex;
-    flex-wrap: wrap;
-}
-
-article .card {
-    border-color: transparent;
-    border-left: 10px;
-    border-bottom: 10px;
-    margin-bottom: 10px;
-}
-
-/* Style the footer */
-footer {
-    position: relative;
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: #efebe9;
-    width: 100%;
-    margin: 0px;
-}
-
-.nav-item {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.nav-item a{
-    text-decoration: none;
-    color: black;
-}
-
-.nav-item:hover {
-    background-color: #ffcccb;
-    text-decoration: none;
-}
-
-
-.active {
-    background-color: #ab000d;
-}
-
-.nav-link {
-    text-decoration: none;
-}
+    .btn:hover {
+        background-color: #ab000d;
+    }
 
 
 
 
-
-/*------- BENEFITS PAGE --------*/
-
-.container-fluid {
-    margin:0;
-    padding:0;
-    border:0;
-}
-
-#header {
-    margin: 0;
-    border: 0;
-    padding: 0;
-}
-
-#header h1 {
-    /* font-size: 4rem; */
-    flex-grow: 1;
-}
-
-#header {
-    display: flex;
-    background-color: #efebe9;
-    width: 100vw;
-    height: 150px;
-    color: #000000;
-    opacity: .7;
-    text-align: center;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.logo-title a {
-    text-decoration: none;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    border-color: black;
-    color:black;
-}
-
-/*------- BENEFITS PAGE - MAIN SECTION NAVIGATION --------*/
-
-#main-section {
-    height: 650px;
-    justify-content: center;
-}
-
-#nav, #main-pg {
-    padding:0;
-    border:0;
-    position: relative;
-    width: 100%;
-    background-color: #efebe9;
-    opacity: 0.7;
-}
-
-#nav {
-    margin: 0 0 10px 0;
-}
-
-#main-pg {
-    margin: 0 0 10px 0;
-    border-left: 2px solid #ab000d;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.nav-item {
-    padding-left: 40px;
-    display: flex;
-    height: 75px;
-    align-items: center;
-    font-size: 1.1rem;
-}
-
-.active span {
-    color: #efebe9;
-} 
+/*------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------- STYLING OF THE SEPARATE PAGES (HTMLS) -------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------*/
 
 
-.active i {
-    color: #efebe9;
-} 
 
-/*------- BENEFITS PAGE - MAIN SECTION MAIN PAGE CAROUSEL --------*/
+    /*------- BENEFITS PAGE - MAIN SECTION MAIN PAGE CAROUSEL --------*/
 
 
-.page-title {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-}
-
-#main-pg .col-10{
-    width: 100%;
-}
-
-.main-pg-content {
-    width: 100%;
-    height: min-content;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-}
-
-
-/*------- BENEFITS PAGE - FOOTER --------*/
-
-#footer {
     
-    font-family: 'Lato', sans-serif;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    background-color: #efebe9;
-    width: 100vw;
-    color: #000000;
-    opacity: .7;
-    text-align: center;
-    align-items: center;
-    height: 150px;
-}
 
-.sign-up-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    #main-pg .col-10{
+        width: 100%;
+    }
 
-.sign-up-container p, .input-group {
-    margin: 10px 10px 0px 10px;
-}
-
-.input-group {
-    width: 50%;
-}
-
-.social-network-container {
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-networks {
-    width: 100%;
-}
-
-.social-networks li{
-    display: inline;
-}
-
-.social-networks i{
-    font-size: 200%;
-    margin: 0.5%;
-    padding: 1%;
-    color: black;
-}
-
-.social-networks i:hover {
-    color: #ab000d;
-    transform: scale(1.2);
-    transition: all 0.25s ease-in-out;
-}
-
-.btn {
-    background-color: black;
-    color:  #efebe9;
-}
-
-.btn:hover {
-    background-color: #ab000d;
-}
+    .main-pg-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
 
 
 
-/*---- EXERCISES CARD CONTAINER ----*/
+/*---- EXERCISE CARD STYLING ----*/
 
-.card {
-    padding: 2%;
-    flex-grow: 1;
-    flex-basis: 16%;
-}
+    .card {
+        padding: 2%;
+        flex-grow: 1;
+        flex-basis: 16%;
+    }
 
-.card-container {
-    display: flexbox;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 20px;
-}
+    .card-container {
+        display: flexbox;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+    }
 
-.card-body h3 {
-    border-bottom: 1.5px solid #ab000d;
-}
+    .card-body h3 {
+        border-bottom: 1.5px solid #ab000d;
+    }
 
-/*---- Q&A CARD CONTAINER ----*/
+/*---- Q&A CARAUSEL CONTAINER ----*/
 
 .card-body-qa {
     font-family: 'Lato', sans-serif;
     text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
 }
 
 .form-row {
-    margin top: 15px;
-}
-
-.card-header-qa {
-    display: flex;
-    justify-content: flex-start;
+    margin-top: 15px;
 }
 
 .btn-link:hover {
     text-decoration: none;
     color: #efebe9;
+    transform: scale(1.2);
 }
 
-/*------ CONTACT PAGE -----*/
+a:hover {
+    text-decoration: none;
+    color: #ab000d;
+}
+
+
+
+/*------ CONTACT HTML STYLING -----*/
 
 .form-container-text {
     margin: 10%;
@@ -445,7 +369,7 @@ footer {
 
 .form-control {
     border: 2px solid #ab000d;
-    margin: 10px;
+    margin-bottom: 5px;
 }
 
 .form-container {
@@ -455,20 +379,260 @@ footer {
 
 
 
-/* --- HOME  ----*/
+/* --- HOME HTML STYLING ----*/
 
-.home-text h1 {
-    margin: 30px;
+#main-section-content-pg h1 {
+    margin: 50px;
 }
 
-.home-text p {
+.home-text {
     font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
     text-align: justify;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 20px;
-    margin: 0px 100px;
+    margin: 0px 200px;
 }
 
-.home-text a {
-    margin-top: 100px;
+.home-float-img {
+        float: right;
+        width: 120px;
+        margin: 0 0 15px 20px;
+        padding: 15px;
+        border: 1px solid black;
+        text-align: center;
 }
+
+#main-section-content-pg a {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.card-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-y:auto;
+}
+  
+.item {
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+  }
+
+#main-section-content-pg .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ----------- BENEFITS HTML - CONTENT AREA STYLE ----------- */
+
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+@media screen and (max-width: 1396px){
+    #club-ethos{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #left-about, #right-about {
+        width:100%;
+        float:left;
+        padding: 0;
+    }
+
+    #center-about{
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+        }
+}
+
+#accordion  {
+    width: 100%;
+}
+
+
+
+.card-flex-container {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .card-flex-container li {
+    list-style: none;
+  }
+
+  .exercises-row-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+
+
+  /* ----- OUTDOOR GYMS MAP CARDS -----*/
+
+  .mapouter {
+      
+      height:100%;
+      width:100%;
+    }
+
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:100%;
+        width:100%;
+    }
+
+    .map-card-body {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        
+    }
+
+    #gym-name,
+    #meeting-times {
+       justify-content: center;
+       margin-bottom: 10px;
+       margin-top: 10px;
+       flex-direction: column;
+    }
+
+
+    #meeting-times h5 {
+        color: #ab000d;
+        border-bottom: 1px solid #ab000d;
+        border-top: 1px solid #ab000d;
+    }
+
+    tr {
+        width: 50%;
+    }
+
+    th {
+        text-align: right;
+    }
+        
+    td {
+        text-align: left;
+    }
+   
+    .card-flex-container :hover {
+        transform: scale(1.01);
+    }
+
+    #meeting-times {
+        font-size: .8rem;
+    }
+
+
+
+
+    /* --------------- MEDIA QUERIES ----------------*/
+
+
+    @media screen and (max-width: 600px) {
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        .btn {
+            white-space: normal !important;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 992px) {
+        
+        #footer-details {
+            flex-direction: column;
+        }
+
+        .footer-signup-text{
+            justify-content: center;
+        }  
+
+        .footer-signup-text h3{
+            justify-content: center;
+        }
+
+        .input-group {
+            width: 100%;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 1350px) {
+    
+        .input-group {
+            width: 75%;
+        }
+    }

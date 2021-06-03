@@ -55,7 +55,7 @@ Even there are several wrokout programs and personaöl coaches on the net, still
     -   #### Typography
         -   The Graduate and Lato fonts are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Graduate font style shows strength so it fits perfectly for a active life promoting website. The Graduate font is used mainly for headings and text which was planned to highlight. Lato font style a smoother style but looks good in pair with Graduate (checked on Google Font) and mainly used for general texts.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image was selected to show the visitor what this website about. It makes clear the content of the website for the visitor without reading a word. With the black and white and shaded style it looks modern and powerfull.
+        -   Imagery is important. The large, background hero image was selected to show the visitor what this website is about. It makes clear the content of the website for the visitor without reading a word. With the black and white and shaded style it looks modern and powerfull.
 
 *   ### Wireframes
 
