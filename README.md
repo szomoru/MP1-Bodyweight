@@ -59,11 +59,11 @@ Even there are several wrokout programs and personaöl coaches on the net, still
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe - [View](https://xd.adobe.com/view/61f75a6b-2904-400e-9090-001a0d3bbbd2-34a4/)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Mobile Wireframe - [View](https://xd.adobe.com/view/61f75a6b-2904-400e-9090-001a0d3bbbd2-34a4/)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Contact Us Page Wireframe - [View](https://xd.adobe.com/view/61f75a6b-2904-400e-9090-001a0d3bbbd2-34a4/)
 
     ## Features
 
