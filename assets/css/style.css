@@ -71,7 +71,6 @@ li {
 /*--- LANDING PAGE TEXTBOX STYLING ---*/
 
 .landing-page-box {
-    display: flex-box;
     min-width: 30vh;
     min-height: min-content;
     background-color: #efebe9;
@@ -362,7 +361,6 @@ footer {
 }
 
 .card-container {
-    display: flexbox;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
@@ -492,19 +490,55 @@ footer {
     list-style: none;
 }
 
-#gym-name,
-#meeting-times {
+#gym-name-1,
+#gym-name-2,
+#gym-name-3,
+#gym-name-4,
+#gym-name-5,
+#gym-name-6,
+#gym-name-7,
+#gym-name-8,
+#gym-name-9,
+#gym-name-10,
+#meeting-times-1,
+#meeting-times-2,
+#meeting-times-3,
+#meeting-times-4,
+#meeting-times-5,
+#meeting-times-6,
+#meeting-times-7,
+#meeting-times-8,
+#meeting-times-9,
+#meeting-times-10 {
     justify-content: center;
     margin-bottom: 10px;
     margin-top: 10px;
     flex-direction: column;
 }
 
-#meeting-times {
+#meeting-times-1,
+#meeting-times-2,
+#meeting-times-3,
+#meeting-times-4,
+#meeting-times-5,
+#meeting-times-6,
+#meeting-times-7,
+#meeting-times-8,
+#meeting-times-9,
+#meeting-times-10 {
     font-size: .8rem;
 }
 
-#meeting-times h5 {
+#meeting-times-1 h5,
+#meeting-times-2 h5,
+#meeting-times-3 h5,
+#meeting-times-4 h5,
+#meeting-times-5 h5,
+#meeting-times-6 h5,
+#meeting-times-7 h5,
+#meeting-times-8 h5,
+#meeting-times-9 h5,
+#meeting-times-10 h5 {
     color: #ab000d;
     border-bottom: 1px solid #ab000d;
     border-top: 1px solid #ab000d;
