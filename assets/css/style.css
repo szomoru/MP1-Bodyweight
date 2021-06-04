@@ -194,6 +194,8 @@ header a {
 }
 
 
+
+
 /* ---- MAIN SECTION - Navigation area Styling ---- */
 
 #main-section-nav {
@@ -341,6 +343,16 @@ footer {
 
 /* --- EXERCISES PAGE --- */
 
+.card-flex-container li {
+    list-style: none;
+}
+
+.exercises-row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* exercise card styling */
 
 .card {
@@ -364,7 +376,7 @@ footer {
 
 /* --- QUESTIONS PAGE --- */
 
-/* CARAUSEL CONTAINER */
+/* accordion styling */
 
 .card-body-qa {
     font-family: 'Lato', sans-serif;
@@ -385,6 +397,10 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+#accordion {
+    width: 100%;
 }
 
 /* form styling - Start*/
@@ -432,7 +448,6 @@ footer {
     width: 400px;
     height: 400px;
     margin-right: 15px;
-
 }
 
 .card-layout {
@@ -442,37 +457,11 @@ footer {
     overflow-y: auto;
 }
 
-#accordion {
-    width: 100%;
-}
 
-.card-flex-container {
+/* ----- OUTDOOR PAGE -----*/
 
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.card-flex-container li {
-    list-style: none;
-}
-
-.exercises-row-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-/* ----- OUTDOOR GYMS MAP CARDS -----*/
-
+/* map card styling - start */
 .mapouter {
-
     height: 100%;
     width: 100%;
 }
@@ -488,7 +477,19 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
 
+/* map card styling - end */
+
+/* gym card styling - start */
+
+.card-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 #gym-name,
@@ -499,12 +500,17 @@ footer {
     flex-direction: column;
 }
 
+#meeting-times {
+    font-size: .8rem;
+}
 
 #meeting-times h5 {
     color: #ab000d;
     border-bottom: 1px solid #ab000d;
     border-top: 1px solid #ab000d;
 }
+
+/* table styling (for meeting and opening times) */
 
 tr {
     width: 50%;
@@ -518,9 +524,7 @@ td {
     text-align: left;
 }
 
-#meeting-times {
-    font-size: .8rem;
-}
+/* table styling */
 
 
 
@@ -565,7 +569,7 @@ a:hover {
     transform: scale(1.2);
 }
 
-/* Gym map cards */
+/* Gym map cards and exercises cards */
 .card-flex-container :hover {
     transform: scale(1.01);
 }
