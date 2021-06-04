@@ -303,20 +303,13 @@ footer {
 
 
 
-/*------- BENEFITS PAGE - MAIN SECTION MAIN PAGE CAROUSEL --------*/
+/*------- BENEFITS PAGE --------*/
 
 
 
 
 #main-pg .col-10 {
     width: 100%;
-}
-
-.main-pg-content {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
 }
 
 #benefit-list-container{
@@ -391,6 +384,12 @@ a:hover {
 
 
 /*------ CONTACT HTML STYLING -----*/
+
+.main-pg-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .form-container-text {
     margin: 10%;
@@ -569,6 +568,10 @@ td {
 
     .btn {
         white-space: normal !important;
+    }
+
+    .form-container-text {
+        display: none;
     }
 
 }
