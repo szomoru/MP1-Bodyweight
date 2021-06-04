@@ -54,7 +54,7 @@ There are tons of workout programs and personal trainers on the net, but there a
 -   ### Design
 
     -   #### Colour Scheme
-        -   The two main colours that were used are Red and Dark grey. The color combination was selected on the Material Design website (https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=F57F17)
+        -   The two main colours that were used are Red (Hex: #ab000d) and Dark grey (Hex: #212121). The color combination was selected on the Material Design website (https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=F57F17)
 
     -   #### Typography
         -   The Graduate and Lato fonts are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Graduate font style shows strength so it fits perfectly for an active lifestyle promoting website. The Graduate font is used mainly for headings and text which was planned to be highlighted. Lato font style is a smoother style but looks good in pair with Graduate (checked on Google Font) and mainly used for general texts.
@@ -84,23 +84,62 @@ There are tons of workout programs and personal trainers on the net, but there a
 
     ### Present Features
 
-    #### Features all around the site
+    #### Features accross all Pages
 
-    -   The website was designed to have the same structure on all pages. The layout is the following:
+    -   The website was designed to have the same structure on all pages. It is easy for the user to see through the website and very easy to navigate. 
+        The layout is the following:
         - On the top section there is the Header
         - The middel section is divided into 2 parts:
-            - Navigation on the Left
-            - Main content on the right
+            - Navigation on the Left (smaller screens on the Top)
+            - Main content on the right (smaller screens on the Bottom)
         - The page is closed with the Footer 
 
-
     - [x] **Header**
-        - The header contains only one element, what is the name of the site    
-        - That text has a link which shows 
-        -   
-        -   
+        - The header contains only one element, what is the name of the site with link to the home page
+        - By clicking on the text the visitor can return back to the home page from anywhere  
 
--   Interactive elements
+    - [x] **Main section**
+        - [x] Navigation 
+            - The right side of the Main section is the navigation
+            - There are the navigation items vertically sorted
+            - The menu items change color and became slightly highlighted if the visitor hover over the mouse
+            - The connected menu point to the actual page is always highlighted so it is always visible for the visitor where she/he located in the strucutre
+            - By clicking on a navigtion item it activates the conneted html page
+        - [x] Main Section Content
+            - Right side of the middle section
+            - this window conatins the page specific information
+    - [x] **Footer**
+        - Always located as the last element of the page
+        - Divided into the Social network area and the Sign up area
+            - Social network area conatins icons, those represent the most popular social media platforms. These icons have live link to the represented social media platform
+            - Sign up call to action to leave the e-mail address for future connections. The signup features right now pointed to the Code Instiotute form dumb 
+
+    #### Features specific to Pages
+
+    - [x] **Landing page**
+        - Hero imnage set to the background, which clearly represents the type of the webpage
+        - A smaller window floating over the background, which highlight some topic of the content od the page and call to action
+        - If the visitor accept the invitation and take action after clicking the "Learn more" button, getss to the Home page.
+    - [x] **Home page**
+        - Home page is already designed for the previously described layout structure. 
+        - At the main content window it contains a wikipedia article about Bodyweight training.
+    - [x] **Benefits page**
+        - Describe 5 benefits of bodyweight training in the main content section
+    - [x] **Exercises page**
+        - Contains gif cards. Each card introduces one bodyweight exercise
+        - The layout of the cards are changing with the change of the viewport size (Responsive) 
+    - [x] **Outdoor Gyms page**
+        - Contains "map cards". Each card introduces a location of an Outdoor Gym or Inhouse Gym-
+        - The layout of the cards are changing with the change of the viewport size (Responsive) 
+    - [x] **Questions**
+        - This page contains the most frequently asked questions about bodyweight training and give an answer to that
+        - By clicking on the question button the answer became unfolded and it will be collapse if the visitor clicks on an other question 
+    - [x] **Contact page**
+        - Contains a contac form that the visitor can fill out to ask a question or share a story
+        - The contant form is linked to Code Institute form dumb
+
+
+
 
     ### Future Features
 
@@ -115,29 +154,39 @@ There are tons of workout programs and personal trainers on the net, but there a
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on the Social Media icons in the footer and on all cards and menu items to highlight and scale while being hovered over them.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Graduate' and 'Lato' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes in the Navigation.
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes accross the whole website.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - jQuery came with Bootstrap 
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Adobe XD:](https://www.adobe.com/se/products/xd.html)
-    - Adobe XD free version was used to create [wireframes](https://github.com/) during the design process.
+    - Adobe XD free version was used to create [wireframes](./assets/wireframes/) during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+
+        index.html                PASSED
+        home.html                 PASSED
+        benefits.html             PASSED
+        exercises.html            PASSED
+        outdoorgym.html           WARNINGS (https://google-map-generator.com/ html code contains elements that are not validated by the tool)
+        contact.html              PASSED
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+
+        style.css                 PASSED
 
 ### Testing User Stories from User Experience (UX) Section
 
