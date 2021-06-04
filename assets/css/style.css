@@ -319,6 +319,21 @@ footer {
     overflow: hidden;
 }
 
+#benefit-list-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#benefit-list {
+    padding-right: 40px;
+}
+
+.benefit-text {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    margin bottom: 50px;
+}
 
 
 /*---- EXERCISE CARD STYLING ----*/
@@ -443,79 +458,6 @@ a:hover {
     align-items: center;
 }
 
-
-/* ----------- BENEFITS HTML - CONTENT AREA STYLE ----------- */
-
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-}
-
-hr {
-    border-top: 1px solid #777777;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading {
-    width: 50%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 50%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-}
-
-@media screen and (max-width: 1396px) {
-    #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin-top: 0;
-    }
-
-    #left-about,
-    #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-}
 
 #accordion {
     width: 100%;
