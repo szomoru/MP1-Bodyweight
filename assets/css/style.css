@@ -10,11 +10,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
-    color: #ab000d;
-}
-
 h1,
 h2,
 h3,
@@ -33,6 +28,7 @@ html {
     background-attachment: fixed;
 }
 
+/* top and bottom border */
 .border-tb {
     /*Border top and Bottom used in header and landing page */
     border-top: 2px solid;
@@ -40,9 +36,23 @@ html {
     border-color: #212121;
 }
 
+/* list item styling */
 li {
     list-style: none;
 }
+
+/* button styling */
+.btn {
+    background-color: #212121;
+    color: #efebe9;
+}
+
+/* container bottom margin is applied everywhere */ 
+.container-fluid {
+    margin-bottom: 10px !important;
+}
+
+
 
 
 /* -------------------------------------------------------------------------*/
@@ -50,7 +60,7 @@ li {
 /* -------------------------------------------------------------------------*/
 
 
-/*--- LANDING PAGE CONTAINER PROPERTIES ---*/
+/*--- LANDING PAGE CONTAINER STYLING ---*/
 
 .landing-page-container {
     display: flex;
@@ -86,10 +96,6 @@ h2 {
     border-style: none;
 }
 
-.landing-page-box a:hover {
-    color: #ffffff;
-}
-
 .span-red {
     /*Coloring text on landing page - Red */
     color: #ab000d;
@@ -103,9 +109,13 @@ h2 {
 
 
 /* -------------------------------------------------------------------------*/
-/* ---------------------- PAGE LAYOUT ELEMENTS STYLES ----------------------*/
+/* ---------------------- PAGE LAYOUT ELEMENT STYLES ----------------------*/
 /* -------------------------------------------------------------------------*/
 
+
+
+
+/* ------------------- COMMON STYLES ON EVERY PAGE ------------------- */
 
 
 /* --- HEADER STYLE ---*/
@@ -125,19 +135,13 @@ header h1 {
     font-size: 4em;
 }
 
-
-
-.container-fluid {
-    margin-bottom: 10px !important;
-}
-
 header a {
     color: #212121;
 }
 
 
 
-/*--- MAIN SECTION DIVIDING STYLE---*/
+/* --- MAIN SECTION STYLING --- */
 
 #main-section {
     justify-content: center;
@@ -154,13 +158,10 @@ header a {
     justify-content: center;
 }
 
-#main-section-content-pg {
-    flex-direction: row;
-    opacity: 0.9;
-}
+/* ---- MAIN SECTION - Content area styling ---- */
 
-#main-section-nav {
-    margin: 0 0 10px 0;
+#main-pg .col-10 {
+    width: 100%;
 }
 
 #main-section-content-pg {
@@ -170,9 +171,35 @@ header a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
+    opacity: 0.9;
 }
 
-/* ---- Navigation Styling ---- */
+#main-section-content-pg h1 {
+    margin: 50px;
+}
+
+#main-section-content-pg h2 {
+    margin-bottom: 40px;
+}
+
+#main-section-content-pg a {
+    margin-bottom: 20px;
+}
+
+#main-section-content-pg .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ---- MAIN SECTION - Navigation area Styling ---- */
+
+#main-section-nav {
+    margin: 0 0 10px 0;
+}
+
 .nav {
     width: 100%;
 }
@@ -191,23 +218,21 @@ header a {
     color: #212121;
 }
 
-.nav-item:hover {
-    background-color: #ffcccb;
-    text-decoration: none;
-}
-
 .nav-link {
     text-decoration: none;
 }
 
+/* active menu item styling */ 
 .active {
     background-color: #ab000d;
 }
 
+/* active menu item styling color*/ 
 .active span {
     color: #efebe9;
 }
 
+/* active menu item styling color*/ 
 .active i {
     color: #efebe9;
 }
@@ -257,6 +282,8 @@ footer {
 }
 
 
+/* Social network styling - START */
+
 .social-network-container {
     display: flex;
     height: 100%;
@@ -279,38 +306,18 @@ footer {
     color: #212121;
 }
 
-.social-networks i:hover {
-    color: #ab000d;
-    transform: scale(1.2);
-    transition: all 0.25s ease-in-out;
-}
-
-.btn {
-    background-color: #212121;
-    color: #efebe9;
-}
-
-.btn:hover {
-    background-color: #ab000d;
-}
+/* Social network styling - END */
 
 
 
 
 /*------------------------------------------------------------------------------------------------------------------*/
-/*------------------------------------- STYLING OF THE SEPARATE PAGES (HTMLS) -------------------------------------*/
+/*---------------------------------------------- PAGE SPECIFIC STYLING ---------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------*/
 
 
 
-/*------- BENEFITS PAGE --------*/
-
-
-
-
-#main-pg .col-10 {
-    width: 100%;
-}
+/*--- BENEFITS PAGE ---*/
 
 #benefit-list-container{
     display:flex;
@@ -320,11 +327,7 @@ footer {
     padding-left: 20%;
 }
 
-#main-section-content-pg h2 {
-    margin-bottom: 40px;
-}
-
-#benfit-list {
+#benefit-list {
     padding-right: 40px;
 }
 
@@ -336,7 +339,9 @@ footer {
 }
 
 
-/*---- EXERCISE CARD STYLING ----*/
+/* --- EXERCISES PAGE --- */
+
+/* exercise card styling */
 
 .card {
     padding: 2%;
@@ -356,7 +361,10 @@ footer {
     border-bottom: 1.5px solid #ab000d;
 }
 
-/*---- Q&A CARAUSEL CONTAINER ----*/
+
+/* --- QUESTIONS PAGE --- */
+
+/* CARAUSEL CONTAINER */
 
 .card-body-qa {
     font-family: 'Lato', sans-serif;
@@ -370,18 +378,6 @@ footer {
     margin-top: 15px;
 }
 
-.btn-link:hover {
-    text-decoration: none;
-    color: #efebe9;
-    transform: scale(1.2);
-}
-
-a:hover {
-    text-decoration: none;
-    color: #ab000d;
-}
-
-
 
 /*------ CONTACT HTML STYLING -----*/
 
@@ -390,6 +386,8 @@ a:hover {
     display: flex;
     justify-content: center;
 }
+
+/* form styling - Start*/
 
 .form-container-text {
     margin: 10%;
@@ -414,12 +412,10 @@ a:hover {
     text-align: center;
 }
 
+/* form styling - end */
+
 
 /* --- HOME HTML STYLING ----*/
-
-#main-section-content-pg h1 {
-    margin: 50px;
-}
 
 .home-text {
     font-family: 'Lato', sans-serif;
@@ -439,14 +435,6 @@ a:hover {
 
 }
 
-#main-section-content-pg a {
-    margin-bottom: 20px;
-}
-
-
-
-
-
 .card-layout {
     display: flex;
     flex-wrap: wrap;
@@ -454,25 +442,9 @@ a:hover {
     overflow-y: auto;
 }
 
-.item {
-    flex: 0 32%;
-    height: 100px;
-    margin-bottom: 2%;
-    /* (100-32*3)/2 */
-}
-
-#main-section-content-pg .col {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 #accordion {
     width: 100%;
 }
-
-
 
 .card-flex-container {
 
@@ -546,19 +518,65 @@ td {
     text-align: left;
 }
 
-.card-flex-container :hover {
-    transform: scale(1.01);
-}
-
 #meeting-times {
     font-size: .8rem;
 }
 
 
 
+/* ---------------------------------------*/
+/* --------------- HOVERS ----------------*/
+/* ---------------------------------------*/
 
+
+/* hover style on every a element*/
+a:hover {
+    text-decoration: none;
+    color: #ab000d;
+}
+
+/* hover style on the Landing page button*/
+.landing-page-box a:hover {
+    color: #ffffff;
+}
+
+/* hover style on the navigation items */
+.nav-item:hover {
+    background-color: #ffcccb;
+    text-decoration: none;
+}
+
+/* hover style on the social network icons*/
+.social-networks i:hover {
+    color: #ab000d;
+    transform: scale(1.2);
+    transition: all 0.25s ease-in-out;
+}
+
+/* hover style on the button elements */
+.btn:hover {
+    background-color: #ab000d;
+}
+
+/* hover style on button link elements - accordion in questions.html -*/
+.btn-link:hover {
+    text-decoration: none;
+    color: #efebe9;
+    transform: scale(1.2);
+}
+
+/* Gym map cards */
+.card-flex-container :hover {
+    transform: scale(1.01);
+}
+
+
+/* ----------------------------------------------*/
 /* --------------- MEDIA QUERIES ----------------*/
+/* ----------------------------------------------*/
 
+
+/* Styling up to 600px */
 
 @media screen and (max-width: 600px) {
 
@@ -576,6 +594,7 @@ td {
 
 }
 
+/* Styling up to 992px */
 
 @media only screen and (max-width: 992px) {
 
@@ -597,6 +616,7 @@ td {
 
 }
 
+/* Styling up to 1350px */
 
 @media only screen and (max-width: 1350px) {
 
