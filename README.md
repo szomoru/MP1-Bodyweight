@@ -1,13 +1,13 @@
 <h1 align="center">Use Your Body</h1>
 <h1 align="center"><img src="#" /></h1>
 
- <a href="#"><img src="#" width="25px" /></a> :point_left: Live website
+:point_right: <a href="http://szomoru.github.io/MP1-Bodyweight/">Live Website</a> :point_left:
 
-  <a href="#"><img src="./assets/images/readme-images/githublogo.png" width="25px" /></a> :point_left: GitHub Repository
+:point_right: <a href="https://github.com/szomoru/MP1-Bodyweight.git">Github Repository</a> :point_left:
  
  ## About
 
-Even there are several wrokout programs and personaöl coaches on the net, still there are people who are struggling how to start to move. Many people struggling where to start and what to start. This website has been created to show these people that to start they do not need much. Just their Body. The goal is to show them the basic bodyweigth exercises and give answers some very basic question. Through this respoinsive website, which is enjoyable on every devices, I do hope i can show tha there is not needed much to start to live a healthier, active life. 
+There are tons of workout programs and personal trainers on the net, but there are still people who are struggling how start to work on a better themself. Sometimes people over mistify what they have to do and do not think about the simpliest, fastest solution. This website has been created to show those people that they do not need much to start to live a healthier life, specially when comes to the training. They do not need expensive gym subscription or personal trainers. They need just their Body. The goal of this website is to introduce the basic bodyweight exercises and answer some frequently asked questions. This website enjoyable on every device, so it is easy to acces in all circumstances.
  
 
 
@@ -20,6 +20,8 @@ Even there are several wrokout programs and personaöl coaches on the net, still
 [Technologies Used](#technologies)
 
 [Testing](#testing)
+
+[Note on Commits](#commits)
 
 [Deployment](#deployment)
 
@@ -34,42 +36,69 @@ Even there are several wrokout programs and personaöl coaches on the net, still
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the content of the webpage and fast to make a decision if the content valid for me or not.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site and fast to get an overal picture about the site structure.
-        3. As a First Time Visitor, I want to see their social media availability, where i can get more information about the site and through comments to check their creditability.
-        4. As a first Time Visitor i want to find the possibility to have additional information or warning about updates in a form of a newsletter eg. 
+        1. As a First Time Visitor, I want to easily understand the content of the webpage and make a fast decision if the content interesting for me or not.
+        2. As a First Time Visitor, I want to be able to easily navigate through the site and get an overal picture about the site structure very fast.
+        3. As a First Time Visitor, I want to see their social media availability, where i can get more information about the site or organisation / person behind that.
+        4. As a first Time Visitor i want to find the possibility how to get more information or notifications about future updates. 
 
     -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find information about bodyweight exercises.
-        2. As a Returning Visitor, I want to see a contact form where i can ask them any question or share my own story with them.
+        2. As a Returning Visitor, I want to see a contact form where i can ask questions or share my thoughts and comments.
         3. As a Returning Visitor, I want to find community links.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are more bodyweigth exercises or full training plans or also healthy food plans added.
-        2. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to see if there are more bodyweight exercises or maybe full training plans.
+        2. As a Frequent User, I want to sign up to a Newsletter so never miss any uodates or news about the website and the topic.
 
 -   ### Design
+
     -   #### Colour Scheme
-        -   The two main colours used are Red and Dark grey. The color combination was selected on the Material Design website (https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=F57F17)
+        -   The two main colours that were used are Red and Dark grey. The color combination was selected on the Material Design website (https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=F57F17)
+
     -   #### Typography
-        -   The Graduate and Lato fonts are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Graduate font style shows strength so it fits perfectly for a active life promoting website. The Graduate font is used mainly for headings and text which was planned to highlight. Lato font style a smoother style but looks good in pair with Graduate (checked on Google Font) and mainly used for general texts.
+        -   The Graduate and Lato fonts are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Graduate font style shows strength so it fits perfectly for an active lifestyle promoting website. The Graduate font is used mainly for headings and text which was planned to be highlighted. Lato font style is a smoother style but looks good in pair with Graduate (checked on Google Font) and mainly used for general texts.
+    
     -   #### Imagery
         -   Imagery is important. The large, background hero image was selected to show the visitor what this website is about. It makes clear the content of the website for the visitor without reading a word. With the black and white and shaded style it looks modern and powerfull.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://xd.adobe.com/view/61f75a6b-2904-400e-9090-001a0d3bbbd2-34a4/)
+    -   There were several design change during the development process, but the final site looks very familiar with the wirframe. 
 
-    -   Mobile Wireframe - [View](https://xd.adobe.com/view/61f75a6b-2904-400e-9090-001a0d3bbbd2-34a4/)
+    -   Mobile Wireframe - [View](./assets/wireframes/mobile_wireframe.pdf)
 
-    -   Contact Us Page Wireframe - [View](https://xd.adobe.com/view/61f75a6b-2904-400e-9090-001a0d3bbbd2-34a4/)
+        <img src="./assets/img/readme/mobile_wireframe.PNG" height="400px" />
+
+
+    -   Ipad Pro Wireframe - [View](./assets/wireframes/ipadpro_wireframe.pdf)
+
+        <img src="./assets/img/readme/ipad_pro_wireframe.PNG" height="400px" />
+
+
+    -   Desktop Wireframe - [View](./assets/wireframes/desktop_wireframe.pdf)
+
+        <img src="./assets/img/readme/desktop_wireframe.PNG" height="400px" />
 
     ## Features
 
     ### Present Features
 
--   Responsive on all device sizes
+    #### Features all around the site
+
+    -   The website was designed to have the same structure on all pages. The layout is the following:
+        - On the top section there is the Header
+        - The middel section is divided into 2 parts:
+            - Navigation on the Left
+            - Main content on the right
+        - The page is closed with the Footer 
+
+
+    - [x] **Header**
+        - The header contains only one element, what is the name of the site    
+        - That text has a link which shows 
+        -   
+        -   
 
 -   Interactive elements
 
@@ -178,6 +207,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
     -   A white gap can be seen to the right of the footer and navigation bar as a result.
 -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+
+## Note on Commits
+
 
 ## Deployment
 
