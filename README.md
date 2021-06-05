@@ -180,12 +180,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-    -   index.html                PASSED
-    -   home.html                 PASSED
-    -   benefits.html             PASSED
-    -   exercises.html            PASSED
-    -   outdoorgym.html           ERRORS (https://google-map-generator.com/ html code contains elements that are not validated by the tool but still working)
-    -   contact.html              PASSED
+    -   index.html                PASSED    [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fszomoru.github.io%2FMP1-Bodyweight%2Findex.html)
+    -   home.html                 PASSED    [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fszomoru.github.io%2FMP1-Bodyweight%2Fhome.html)
+    -   benefits.html             PASSED    [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fszomoru.github.io%2FMP1-Bodyweight%2Fbenefits.html)
+    -   exercises.html            PASSED    [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fszomoru.github.io%2FMP1-Bodyweight%2Fexercises.html)
+    -   outdoorgym.html           ERRORS (https://google-map-generator.com/ html code contains elements that are not validated by the tool but still working)   [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fszomoru.github.io%2FMP1-Bodyweight%2Foutdoorgym.html)
+    -   contact.html              PASSED    [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fszomoru.github.io%2FMP1-Bodyweight%2Fcontact.html)
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
