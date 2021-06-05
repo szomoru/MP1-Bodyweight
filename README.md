@@ -180,16 +180,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-        index.html                PASSED
-        home.html                 PASSED
-        benefits.html             PASSED
-        exercises.html            PASSED
-        outdoorgym.html           ERRORS (https://google-map-generator.com/ html code contains elements that are not validated by the tool but still working)
-        contact.html              PASSED
+    -   index.html                PASSED
+    -   home.html                 PASSED
+    -   benefits.html             PASSED
+    -   exercises.html            PASSED
+    -   outdoorgym.html           ERRORS (https://google-map-generator.com/ html code contains elements that are not validated by the tool but still working)
+    -   contact.html              PASSED
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-        style.css                 PASSED 
+    -   style.css                 PASSED 
         
     :point_right: <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -253,7 +253,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Functional Testing
-    During the development process and after that there were several tests carried out to validate the links. All external and internal links were tested several times.
+-   During the development process and after that there were several tests carried out to validate the links. All external and internal links were tested several times.
 
 ### Known Bugs
 
