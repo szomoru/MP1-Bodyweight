@@ -189,7 +189,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-        style.css                 PASSED
+        style.css                 PASSED 
+        
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -232,23 +240,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to see if there are more bodyweight exercises or maybe full training plans.
-        1.  More exercises and trainig plans are planned for the future features but the content is updated continuously 
+        1.  More exercises and trainig plans are planned for the future features but the content is updated continuously. If the frequent user subscribed to the newsletter she/he can get extra material, which never published on the website. And also get information about the updates on the website.
 
     2. As a Frequent User, I want to sign up to a Newsletter so never miss any updates or news about the website and the topic.
-
-
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+        1.  Ate the bottom of every page there is the Footer which contains the Sign Up fields. 
+        2.  To the left side of the footer the user can see "Sign Up" and are prompted to Enter their email address.
+        3.  If the user has a request to discuss a special topic it is possible to contact through a contact form on the Contact page  .
 
 ### Further Testing
 
@@ -263,7 +260,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   On some mobile devices the Landing page text box not shrinking enough.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
 
 <a name="commits"></a>
