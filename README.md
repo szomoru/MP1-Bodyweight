@@ -3,7 +3,7 @@
 
 :point_right: <a href="http://szomoru.github.io/MP1-Bodyweight/">Live Website</a> :point_left:
 
-:point_right: <a href="https://github.com/szomoru/MP1-Bodyweight.git">Github Repository</a> :point_left:
+:point_right: <a href="https://github.com/szomoru/MP1-Bodyweight">Github Repository</a> :point_left:
  
  ## About
 
@@ -21,7 +21,7 @@ There are tons of workout programs and personal trainers on the net, but there a
 
 [Testing](#testing)
 
-[Note on Commits](#commits)
+[Note about Commits](#commits)
 
 [Deployment](#deployment)
 
@@ -54,7 +54,8 @@ There are tons of workout programs and personal trainers on the net, but there a
 -   ### Design
 
     -   #### Colour Scheme
-        -   The two main colours that were used are Red (Hex: #ab000d) and Dark grey (Hex: #212121). The color combination was selected on the Material Design website (https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=F57F17)
+        -   The two main colours that were used are Red (Hex: #ab000d) <img src="./assets/img/readme/color_ab000d.JPG" height="20px" /> and Dark grey (Hex: #212121) <img src="./assets/img/readme/color_212121.JPG" height="20px" /> . The color combination was selected on the Material Design website (https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=F57F17)
+
 
     -   #### Typography
         -   The Graduate and Lato fonts are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Graduate font style shows strength so it fits perfectly for an active lifestyle promoting website. The Graduate font is used mainly for headings and text which was planned to be highlighted. Lato font style is a smoother style but looks good in pair with Graduate (checked on Google Font) and mainly used for general texts.
@@ -138,11 +139,8 @@ There are tons of workout programs and personal trainers on the net, but there a
         - Contains a contac form that the visitor can fill out to ask a question or share a story
         - The contant form is linked to Code Institute form dumb
 
-
-
-
     ### Future Features
-
+    - Adding information about healthy food options and also diet options which can be very well combined with Bodyweight training
 
 
 ## Technologies Used
@@ -161,7 +159,7 @@ There are tons of workout programs and personal trainers on the net, but there a
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Graduate' and 'Lato' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes accross the whole website.
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap 
 1. [Git](https://git-scm.com/)
@@ -170,6 +168,8 @@ There are tons of workout programs and personal trainers on the net, but there a
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Adobe XD:](https://www.adobe.com/se/products/xd.html)
     - Adobe XD free version was used to create [wireframes](./assets/wireframes/) during the design process.
+1. [Beautify:]
+    - To beautify my codes i have used the Bootstrap inbuilt beautify feature and Format Document feature.
 
 ## Testing
 
@@ -246,18 +246,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneSE, iPhone 6 & iPhone 11 Pro.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   Family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
+-   On some mobile devices the Landing page text box not shrinking enough.
 -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
-## Note on Commits
+## Note about Commits
+-   The number of the commits is much less then it should be. The reason for that because as a Mechanical design Engineer we also use some kind of "commit" for our CAD design. But there the routin is that we "commit" our job only the end of the day and summary the modifications. Unfortunately this bad habbit stayed with me and it was already too late when i noticed that in the coding world it is working totally different.
+-   I have started to work right away on the right way as i noticed my mistake. 
 
 
 ## Deployment
@@ -266,11 +267,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/szomoru/MP1-Bodyweight)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+    - <img src="./assets/img/readme/deploy_github_settings.JPG" height="25px" />
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+    - <img src="./assets/img/readme/deploy_github_pages.JPG" height="50px" />
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
+    - <img src="./assets/img/readme/deploy_github_pages_master.JPG" height="50px" />
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
@@ -278,15 +281,17 @@ The project was deployed to GitHub Pages using the following steps...
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/szomoru/MP1-Bodyweight)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+    - <img src="./assets/img/readme/deploy_fork.JPG" height="50px" />
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/szomoru/MP1-Bodyweight)
+2. Next to the green Gitpod button, click on the "Code" button.
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    - <img src="./assets/img/readme/deploy_clone.JPG" height="50px" />
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type `git clone`, and then paste the URL you copied in Step 3.
