@@ -143,6 +143,8 @@ There are tons of workout programs and personal trainers on the net, but there a
     - Adding information about healthy food options and also diet options which can be very well combined with Bodyweight training
 
 
+<a name="technologies"></a>
+
 ## Technologies Used
 
 ### Languages Used
@@ -256,6 +258,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   On some mobile devices the Landing page text box not shrinking enough.
 -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
+
+<a name="commits"></a>
+
 ## Note about Commits
 -   The number of the commits is much less then it should be. The reason for that because as a Mechanical design Engineer we also use some kind of "commit" for our CAD design. But there the routin is that we "commit" our job only the end of the day and summary the modifications. Unfortunately this bad habbit stayed with me and it was already too late when i noticed that in the coding world it is working totally different.
 -   I have started to work right away on the right way as i noticed my mistake. 
@@ -317,24 +322,38 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [W3Schools](https://www.w3schools.com/): I have used their content many times to understand CSS and HTML and learned a lot from their content
+
+-   [Froggy](https://flexboxfroggy.com/): I have used this cute educator site to understand better the flexbox method
+
+-   [Maps](https://google-map-generator.com/): I have used this map generator created HTML code for my cards on the outdoorgym.html 
+
+-   [CSS tricks](https://css-tricks.com/): I have also learned a lot and found interesting topics on the CSS-tricks website
+
+
 
 ### Content
 
--   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   All content was written by the developer -Gergely Vig. 
+-   There is only one exception on the Home.html, where the developer has taken the text from wikipedia. The source is linked on the home.html under the text and also [Here](https://en.wikipedia.org/wiki/Bodyweight_exercise) 
+- I have used the following documents as a support and inspiration for the README.md file:
+    - Code Institute [SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
+    - Code Institute [README Template](https://github.com/Code-Institute-Solutions/readme-template)
+    - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
+    - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+    - [Liga Baikova](https://github.com/liigalized/MS1_boredom_guide)
+    
 
 ### Media
 
--   All Images were created by the developer.
+-   The full-screen hero image at the background is from <a href="https://unsplash.com/@abdullam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ABDULLA M</a> on <a href="https://unsplash.com/s/photos/bodyweight-exercise?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-   Exercise GIFS were created by an awsome training website [Freeletics](https://www.freeletics.com) and published on [Giphy](https://giphy.com/channel/freeletics_blog)
+-   Outdoor gym picture on home.html was taken by the [construction company](https://www.mungasjon.se/) and the photo was taken from their [facebook page](https://www.facebook.com/439588792802591/photos/a.471209002973903/1400434560051338/?type=3)  
 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.
+-   Tutor support at Code Institute for their fast support.
+-   Special thanks to everyone who has supported me during making my milestone project, but especially to my wife who has taken over our four kids while i was busy.
