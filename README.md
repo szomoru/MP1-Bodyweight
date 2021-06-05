@@ -1,5 +1,5 @@
 <h1 align="center">Use Your Body</h1>
-<h1 align="center"><img src="#" /></h1>
+<h1 align="center"><img src="./assets/img/readme/responsive.JPG" /></h1>
 
 :point_right: <a href="http://szomoru.github.io/MP1-Bodyweight/">Live Website</a> :point_left:
 
